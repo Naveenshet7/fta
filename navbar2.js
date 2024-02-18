@@ -1,0 +1,55 @@
+
+document.getElementById('menua').onmouseenter=function(){
+    document.getElementById('submenua').style.display='block'
+}
+document.getElementById('menua').onmouseleave=function(){
+    document.getElementById('submenua').style.display='none'
+}
+document.getElementById('menub').onmouseenter=function(){
+    document.getElementById('submenub').style.display='block'
+}
+document.getElementById('menub').onmouseleave=function(){
+    document.getElementById('submenub').style.display='none'
+}
+document.getElementById('menuc').onmouseenter=function(){
+    document.getElementById('submenuc').style.display='block'
+}
+document.getElementById('menuc').onmouseleave=function(){
+    document.getElementById('submenuc').style.display='none'
+}
+document.getElementById('submenua1').onmouseenter=function(){
+    document.getElementById('innermenua').style.display='block'
+}
+document.getElementById('submenua1').onmouseleave=function(){
+    document.getElementById('innermenua').style.display='none'
+}
+document.getElementById('submenua2').onmouseenter=function(){
+    document.getElementById('innermenub').style.display='block'
+}
+document.getElementById('submenua2').onmouseleave=function(){
+    document.getElementById('innermenub').style.display='none'
+}
+document.getElementById('menub').onmouseenter=function(){
+    document.getElementById('submenub').style.display='block'
+}
+document.getElementById('menub').onmouseleave=function(){
+    document.getElementById('submenub').style.display='none'
+}
+document.getElementById('menuc').onmouseenter=function(){
+    document.getElementById('submenuc').style.display='block'
+}
+document.getElementById('menuc').onmouseleave=function(){
+    document.getElementById('submenuc').style.display='none'
+}
+document.getElementById('menud').onmouseenter=function(){
+    document.getElementById('submenud').style.display='block'
+}
+document.getElementById('menud').onmouseleave=function(){
+    document.getElementById('submenud').style.display='none'
+}
+document.getElementById('menue').onmouseenter=function(){
+    document.getElementById('submenue').style.display='block'
+}
+document.getElementById('menue').onmouseleave=function(){
+    document.getElementById('submenue').style.display='none'
+}

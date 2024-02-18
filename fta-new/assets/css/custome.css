@@ -1,0 +1,7 @@
+.sub-course>.card{
+    height: 274px;
+    margin-top: 50px;
+}
+.sub-course>.card>.card-body>.card-text{
+    height: 150px;
+}

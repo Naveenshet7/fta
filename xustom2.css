@@ -1,0 +1,205 @@
+
+.fixed-top{
+    display: none;
+    transition: 0.2s
+}
+.fixed-visible{
+    display: block;
+}
+.nav1-link{
+    color: #263F58;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600; 
+    font-size: 15px;
+}
+
+.it-category-item:hover + .categories{
+    border: 1px solid white;
+}
+
+#submenu1,#submenu2,#submenu3,#submenu4,#submenu5,#submenu6,#innermenu1,#innermenu2{
+    width:260px;text-align:left;padding:30px;border-top:4px solid var(--it-theme-1);background-color:var(--it-common-black);box-shadow:rgba(149,157,165,.2) 0 8px 24px}
+#submenu1>li,#submenu2>li,#submenu3>li,#submenu4>li,#submenu5>li,#submenu6>li,#innermenu1>li,#innermenu2>li{
+margin:0;margin-bottom:5px;
+}
+#submenu1>li>a,#submenu2>li>a,#submenu3>li>a,#submenu4>li>a,#submenu5>li>a,#submenu6>li>a,#innermenu1>li>a,#innermenu2>li>a{
+padding:0;
+font-weight:700;
+color:var(--it-common-white);
+transition:.3s;
+position:relative;
+}
+#submenua,#submenub,#submenuc,#submenud,#submenue,#innermenua,#innermenub{
+    width:260px;text-align:left;padding:30px;border-top:4px solid var(--it-theme-1);background-color:var(--it-common-black);box-shadow:rgba(149,157,165,.2) 0 8px 24px}
+#submenua>li,#submenub>li,#submenuc>li,#submenud>li,#submenue>li,#innermenu1>li,#innermenu2>li{
+margin:0;margin-bottom:5px;
+}
+#submenua>li>a,#submenub>li>a,#submenuc>li>a,#submenud>li>a,#submenue>li>a,#innermenua>li>a,#innermenub>li>a{
+padding:0;
+font-weight:700;
+color:var(--it-common-white);
+transition:.3s;
+position:relative;
+}
+
+
+.it-footer-list>ul>li>a{
+font-size: 14px;
+}
+.it-footer-logo>p, .it-footer-text>p{
+font-size: 14px;
+}
+
+/* .main-1{
+clip-path: polygon(0 -20%, 75% 0%, 100% 100%, 0 100%);
+} */
+@media only screen and (max-width: 767px) {
+/* Styles specific to mobile screens */
+#footer-div{
+height: 1000px;
+}
+#subscribe-main{
+height: 550px;
+text-align: center;
+}
+#reviews{
+height: 1700px;
+}
+#div2{
+    top: 55%;
+    height: 10%;
+    left: 0px;
+}
+#div2>ul>li{
+    color: red;
+}
+/* #img-div{
+    height: 35%;
+    margin-top: 10px;
+} */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #footer-div{
+        height: 550px;
+        }
+        #subscribe-main{
+        height: 350px;
+        text-align: center;
+        }
+        #reviews{
+        height: 500px;
+        }
+        #div2{
+            top: 49%;
+            height: 10%;
+            left: 0px;
+        }
+
+}
+
+.it-header-2-top-social>ul>li>a>i{
+    color: white;
+    font-size: 17px;
+}
+
+.contents-div{
+    top: 80%;
+    height: 20%;
+}
+header {
+display: none;
+}
+
+/* Add this CSS to show the navbar when scrolled more than 100px on large screens */
+@media (min-width: 992px) {
+header.visible {
+display: block;
+}
+.main-1{
+    clip-path: polygon(100% 100%, 100% 0, 85% -240%, 0 100%);
+    }  
+}
+
+.it-header-2-top-left>ul>li>a{
+    font-family: sans-serif;
+}
+
+.it-choose-content >p,.it-choose-content >h5{
+transition: background-color 0.6s ease, color 0.6s ease;
+}
+.it-choose-content{
+    background-color: #0AB99D;
+}
+.it-choose-content>p{
+    color: white;
+}
+.it-choose-content>h5>i{
+    color: white;
+}
+.it-choose-content:hover {
+background-color: white;
+}
+.it-choose-content:hover p {
+color: black; 
+}
+.it-choose-content:hover h5>i {
+color: #0AB99D; 
+}
+
+.course-list{
+    background-color: #E7F1FF;
+  }
+  .course-list li{
+    margin-top: 5px;
+    /* text-align: center; */
+    padding: 5px;
+    background-color: white;
+    color: #53676C;
+    width: 300px;
+  }
+  .animate__animated.animate__fadeInLeft {
+--animate-duration: 1.5s;
+}
+.animate__animated.animate__fadeIn{
+--animate-duration: 4s;
+}
+.it-breadcrumb-title{
+    color: white;
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -2px 2px 0 #000,
+       1px 1px 0 #000;
+  }
+
+#categories-card>.col-xl-3{
+    height: 160px;
+}
+
+.category{
+    transition: transform 1s ease;
+}
+.category-text{
+    background-color: #0AB99D;
+    transition: background-color 0.8s ease;
+}
+.category:hover .category-text{
+    background-color: #11133C;
+    color: white;
+    transform: rotateX(360deg);
+}
+.category-btn{
+    background-color: #F8F9FA;
+    transition: background-color 0.8s ease,;
+}
+.category:hover .category-btn{
+    background-color: gray;
+    /* transform: rotateX(360deg); */
+}
+.category:hover{
+    transform: rotateX(360deg);
+}
+.category:hover .category-btn>a{
+    color: white;
+}

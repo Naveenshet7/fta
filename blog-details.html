@@ -1,0 +1,499 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Blogs Page</title>
+<meta name="description" content>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/x-icon" href="images/icon-02.png">
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/custom-animation.css">
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/nice-select.css">
+<link rel="stylesheet" href="assets/css/flaticon_xoft.css">
+<link rel="stylesheet" href="assets/css/swiper-bundle.css">
+<link rel="stylesheet" href="assets/css/meanmenu.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/spacing.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="custom.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body style="font-family: sans-serif;">
+  <div id="" class="it-header-2-area fixed-top d-block d-lg-none d-xl-none d-xxl-none nav1">     
+  </div>
+  <script>
+    fetch('nav1.html')
+    .then(response=>response.text())
+    .then(html=>{
+      document.querySelector('.nav1').innerHTML=html;
+    })
+  </script>
+  <script>
+      let dropdowns = document.querySelectorAll('.dropdown-toggle')
+    dropdowns.forEach((dd)=>{
+    dd.addEventListener('click', function (e) {
+      var el = this.nextElementSibling
+      el.style.display = el.style.display==='block'?'none':'block'
+    })
+    })
+    </script>
+  <header class="fixed-top" id="nav1">
+    <div class="it-header-transparent nav2">  
+    </div>
+    </header>
+    <script>
+      fetch('nav2.html')
+      .then(response=>response.text())
+      .then(html=>{
+        document.querySelector('.nav2').innerHTML=html;
+      })
+    </script>
+    <script>
+    // Add this JavaScript to handle the scroll event
+    document.addEventListener("DOMContentLoaded", function() {
+    var header = document.getElementById('nav1');
+    
+    window.addEventListener('scroll', function() {
+    if (window.innerWidth >= 992 && window.scrollY > 100) {
+      header.classList.add('visible');
+    } else {
+      header.classList.remove('visible');
+    }
+    });
+    });
+    </script>
+    
+    <div class="body-overlay"></div>
+<!-- Header start -->
+<header class="d-none d-lg-block d-xl-block" style="background: transparent;">
+  <div class="it-header-transparent shadow-none" style="background: transparent;">
+  <div class=" px-1 nav3" style="background-color: white;height: 85px;">
+  </div>
+  <script>
+    fetch('nav3.html')
+    .then(response=>response.text())
+    .then(html=>{
+      document.querySelector('.nav3').innerHTML=html;
+    })
+  </script>
+    <div id="" class="nav4" >
+  </div>
+  </div>
+  <script>
+    fetch('nav4.html')
+    .then(response=>response.text())
+    .then(html=>{
+      document.querySelector('.nav4').innerHTML=html;
+    })
+  </script>
+  </header>
+  <!-- Header end -->
+<main>
+
+    <div class="mb-4" id="home" style="background-image: url('images/Blogs.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+        <div class="row h-100">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+            <h1 class="display-2 fw-bold animate__animated animate__zoomInDown text-white text-center" id="heading"></h1>
+        </div>
+        <a id="whatsapp" style="z-index: 3;" href="https://wa.me/+918904599282" target="_blank"><img src="images/whatsapp.png" alt="" style="height: 60px;"></a>    
+        </div>
+        </div>
+
+<div class="postbox__area pt-120 pb-120">
+<div class="container">
+<div class="row">
+<div class="col-xxl-8 col-xl-8 col-lg-8">
+<div class="postbox__details-wrapper">
+<article>
+<div class="postbox__thumb mb-30 w-img">
+<img id="main-image" class="" height="400" alt>
+</div>
+<div class="postbox__details-title-box pb-40">
+<div class="postbox__meta">
+<!-- <span><i class="fa-solid fa-calendar-days"></i>14 June 2023</span>
+<span><i class="fa-regular fa-comments"></i>Comment (06)</span> -->
+<h5 id="main-title"></h5>
+</div>
+<h4 class="postbox__title mb-20" id="title"></h4>
+<p id="paragraph1"></p>
+</div>
+<div class="postbox__content pb-20">
+<div class="postbox__content-img mb-40 d-flex justify-content-between">
+<img class="mr-30" src="assets/img/blog/blog-details-2.jpg" alt>
+<img src="assets/img/blog/blog-details-3.jpg" alt>
+</div>
+<div class="postbox__text">
+<p id="paragraph2"></p>
+</div>
+</div>
+<div class="postbox__item text-center">
+<i class="fas fa-quote-right"></i>
+<p id="highlight"></p>
+</div>
+
+</article>
+</div>
+</div>
+<div class="col-xxl-4 col-xl-4 col-lg-4 ps-4">
+<div class="it-sv-details-sidebar">
+    <div>
+        <div class="row bg-white py-3 rounded px-2 " action="#">
+          <div class="px-0">
+            <p class="text-center mb-2 py-3 text-white fw-medium " style="background-color: #F5D76E; font-size: 15px;border-radius: 5px 5px 0px 0px;">ENQUIRY FORM</p>
+          </div>
+          <!-- <p class="text-start p-2 ps-4 fw-medium mb-3 text-white" style="background-color: #E92E20;font-size: 15px;">GET IN TOUCH</p> -->
+          <form action="" class="border py-3" style="border-radius: 0px 0px 5px 5px;">
+            <div class=" mb-3">
+            <input type="text" class="border-bottom " placeholder="Full Name" id="fullname">
+            </div>
+            <div class=" mb-3">
+            <input type="tel" class="border-bottom" placeholder="Phone" id="getphone">
+            </div>
+            <div class=" mb-3">
+            <input type="email" class="border-bottom" placeholder="Email" id="getmail">
+            </div>
+            <div class=" mb-3">
+            <input type="text" class="border-bottom" placeholder="Subject" id="getsubject">
+            </div>
+            <div class=" mb-3">
+              <div >
+                <input type="text" class="border-bottom" placeholder="Enter the below text" id="captcha2">
+                <p id="error-div" class="ps-4" style="font-size: 13px;"></p>
+                </div>
+                <div class=" mb-3">
+                  <h6 class="text-center"><span class=" p-2"><a href="" onclick="createCaptcha(event)"><img src="images/captcha-removebg-preview.png" width="25" alt=""></a><span class="p-2 text-info ms-1" style="letter-spacing: 3px;" id="captcha1"></span></span></h6>
+                  </div>
+            </div>
+            
+            <div class="it-signup-btn">
+            <button class="btn btn-sm text-white p-2 w-100 py-3" style="background-color: #0AB99D;" type="button" onclick="getintouchForm(event)">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+<!-- recent blog -->
+<div class="sidebar__widget mb-55 mt-55">
+    <div class="sidebar__widge-title-box">
+    <h3 class="sidebar__widget-title pb-10">Recent Blogs</h3>
+    </div>
+    <div class="sidebar__widget-content">
+    <div class="sidebar__post" id="recent_blog">
+    
+    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="it-newsletter-area it-newsletter-height fix p-relative theme-bg pb-20 mb-40 pt-20" id="subscribe-main" style="background-color: #F5D76E;" >
+  <div class="it-newsletter-shape-1 d-none d-lg-block">
+      <!-- <img src="https://ordainit.com/educate/assets/img/newsletter/shape-1-1.png" alt> -->
+  </div>
+  <div class="it-newsletter-shape-2 d-none d-lg-block">
+      <!-- <img src="https://ordainit.com/educate/assets/img/newsletter/shape-1-2.png" alt> -->
+  </div>
+  <div class="it-newsletter-shape-3 d-none d-xl-block">
+      <!-- <img src="assets/img/newsletter/shape-1-3.png" alt> -->
+  </div>
+  <div class="it-newsletter-shape-4 d-none d-xl-block">
+      <!-- <img src="assets/img/newsletter/shape-1-4.png" alt> -->
+  </div>
+  <div class="container-fluid">
+      <div class="row px-2 px-sm-5">
+          <div class="col-xl-6 col-lg-6 col-md-6 py-2" id="form-video" data-aos="fade-right">
+              <div class="it-newsletter-left h-100" style="display: flex;align-items: center;justify-content: center;">
+                <iframe style="height: 100%;width: 100%;" src="https://www.youtube.com/embed/uhhFEL11qkY?si=85QLOTxIhXjq77OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 px-2 px-md-5 px-0">
+              <div class="py-3 d-flex justify-content-center"  id="subscribe-form" data-aos="flip-left" style="">
+                  <form action="" id="myForm"  class="px-4 px-md-5 py-3 w-100" style="background-color: #fff;border-radius: 20px 20px 0px 20px;">
+                      <input type="text" class="form-control mt-3 shadow-none border bg-transparent text-dark" id="nameInput" placeholder="Enter Your Name...">
+                      <input type="email" class="form-control mt-3 shadow-none border bg-transparent text-dark" id="emailInput" placeholder="Enter Your Email...">
+                      <input type="tel" class="form-control mt-3 shadow-none mb-3 border bg-transparent text-dark" id="contactInput" placeholder="Enter Your Contact Number...">
+                      <!-- <input type="text" class="form-control mt-3 shadow-none mb-3 border bg-transparent text-white" id="subscribe-captcha-check" placeholder="Enter Your Text Below..."> -->
+                      <div class=" mb-3 d-flex align-items-center">
+                      <input type="text" class="form-control shadow-none border bg-transparent text-dark w-50" id="subscribe-captcha-check" placeholder="Enter Captcha...">
+                      <h6 class="text-center w-50 ms-2"><span class="bg-transparent p-2"><a href="" onclick="createCaptcha2(event)"><img src="images/captcha-removebg-preview.png" width="30" alt=""></a><span class="p-2 text-info ms-1" style="letter-spacing: 4px;font-size: 19px;" id="captcha3"></span></span></h6>
+                  </div>
+                  <div>
+                    <p id="subscribe-form-error"></p>
+                  </div>
+                      <div class="text-center">
+                          <button class="subscribe-btn text-white px-2 px-md-5 w-100 py-1 py-md-2 fw-bold" style="border-radius: 20px 20px 0px 20px;background-color: #2F4E71;" type="submit" onclick="submitForm(event)"><span id="subscribe">Subscribe now</span></button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<script>
+  async function getintouchForm(event) {
+  event.preventDefault()
+
+  const captcha_val1=document.getElementById('captcha2').value;
+  const captcha_val2=document.getElementById('captcha1').textContent;
+
+  if(captcha_val1===captcha_val2){
+  var formData = {
+    name: document.getElementById('fullname').value,
+    email: document.getElementById('getmail').value,
+    phone: document.getElementById('getphone').value,
+    subject: document.getElementById('getsubject').value,
+  };
+
+  await fetch('https://backendapi.fortunetradingacademy.com/api/get_in_touch', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData),
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log('Get in touch Successfull:', data);
+    // You can handle success actions here
+  })
+  .catch(error => {
+    console.error('Get in touch Error:');
+    // You can handle error actions here
+  });
+document.getElementById('fullname').value=""
+document.getElementById('getmail').value=""
+document.getElementById('getphone').value=""
+    document.getElementById('getsubject').value=""
+    document.getElementById('captcha2').value=""
+    document.getElementById('error-div').style.color="green"
+    document.getElementById('error-div').textContent="Successfully Sent !!!"
+}
+else{
+  console.log("captcha error")
+  document.getElementById('error-div').style.color="red"
+  document.getElementById('error-div').textContent="Invalid Captcha"
+}
+}
+
+  function generateRandomString(length) {
+    const characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return result;
+  }
+  
+  function createCaptcha(event) {
+    event.preventDefault()
+    const captchaLength = 6;
+    const captchaText = generateRandomString(captchaLength);
+    document.getElementById('captcha1').textContent=captchaText;
+  }
+
+  function createCaptcha2(event) {
+    event.preventDefault()
+      const captchaLength = 6;
+      const captchaText = generateRandomString(captchaLength);
+      document.getElementById('captcha3').textContent=captchaText;
+    }
+
+
+  async function submitForm(event) {
+    event.preventDefault()
+    const captcha_val1=document.getElementById('subscribe-captcha-check').value;
+    const captcha_val2=document.getElementById('captcha3').textContent;
+    if(captcha_val1===captcha_val2){
+    var formData = {
+      name: document.getElementById('nameInput').value,
+      email: document.getElementById('emailInput').value,
+      phone: document.getElementById('contactInput').value
+    };
+  
+    await fetch('https://backendapi.fortunetradingacademy.com/api/enquiry', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Successfull subscribe:', formData);
+      // You can handle success actions here
+    })
+    .catch(error => {
+      console.error('Error:');
+      // You can handle error actions here
+    });
+    document.getElementById('subscribe-form-error').style.color="green"
+    document.getElementById('subscribe-form-error').textContent="Successfully Subscribed !!!"
+  document.getElementById('nameInput').value=""
+    document.getElementById('emailInput').value=""
+      document.getElementById('contactInput').value=""
+      document.getElementById('subscribe-captcha-check').value=""
+
+
+  }
+  else{
+  document.getElementById('subscribe-form-error').style.color="red"
+  document.getElementById('subscribe-form-error').textContent="Enter Valid Captcha !!!"
+      console.log("subscribe error")
+  }
+}
+</script>
+  </main>
+  <footer id="contact" class="contact">
+  </footer>
+  <script>
+    
+fetch('footer.html')
+.then(response=>response.text())
+.then(html=>{
+    document.querySelector('.contact').innerHTML=html;
+})
+  </script>
+  <script>
+    const apiUrl = 'https://backendapi.fortunetradingacademy.com/api/blog/';
+  
+    async function fetchData() {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+          document.getElementById('paragraph1').textContent= "No Data Found"
+        document.getElementById('paragraph2').textContent= "No Data Found"
+        document.getElementById('highlight').textContent= "No Data Found"
+        }
+  console.log("success")
+        const data = await response.json();
+        console.log(data)
+
+        // DISPLAY PARTICULAR SLUG DATA
+      data.map((item)=>{
+        const val=`${item.slug}`
+        if(val===data1){
+            console.log(val)
+            const main=document.getElementById('main-container')
+        document.getElementById('paragraph1').textContent= `${item.Paragraph1}`
+        document.getElementById('paragraph2').textContent= `${item.Paragraph2}`
+        document.getElementById('highlight').textContent= `${item.Highlight}`
+        document.getElementById('heading').textContent= `${item.Main_Title}`.toUpperCase()
+        document.getElementById('main-title').textContent=`${item.Main_Title}`.toUpperCase()
+
+        document.getElementById('main-image').setAttribute('src',`${item.img}`)
+        }
+      })
+
+      const lastThreeItems=data.slice(-3)
+
+      const recent_blog=document.getElementById('recent_blog')
+      lastThreeItems.map(item1 => {
+
+        let date=""+item1.created_at;
+                  let months=["","January","February","March","April","May","June","July",
+                "August","September","October","November","December"]
+                  let year=date.slice(0,4)
+                  let month=""+(months.slice(Number(date.slice(5,7)),Number(date.slice(5,7))+1))
+                  console.log(month); 
+                  let dte=date.slice(8,10)
+                  
+
+          const colSm6 = document.createElement('div');
+          colSm6.className = 'rc__post mb-3 ';
+          colSm6.setAttribute('data-aos','fade-left')
+          colSm6.setAttribute('data-aos-duration','1000')
+
+          const card = document.createElement('div');
+          card.className = 'rc__post-thumb mr-20 d-flex gap-3';
+  
+          card.innerHTML = `
+          <a href="blog-details.html"><img src="${item1.img}" width="70" height="80" alt></a>
+
+<div class="rc__post-content">
+<div class="rc__meta">
+<span><i class="fa-solid fa-calendar-days"></i>${dte} ${month} ${year}</span>
+</div>
+<h3 class="rc__post-title">
+<a href="blog-details.html?data1=${item1.slug}">${item1.Main_Title}</a>
+</h3>`;
+  
+          colSm6.appendChild(card);
+          recent_blog.appendChild(colSm6);
+        });
+
+
+
+      } catch (error) {
+        console.error('Fetch error:', error);
+      }
+    }
+  
+    fetchData();
+
+    const params=new URLSearchParams(window.location.search);
+    const data1=params.get('data1');
+    console.log(data1)
+  </script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+      easing: 'ease-in-out'
+  });
+</script>
+<script>
+    // Remove ".html" extension from URL
+    var path = window.location.pathname;
+    if (path.endsWith(".html")) {
+        var newPath = path.slice(0, -5); // Remove last 5 characters (".html")
+        window.history.replaceState({}, '', newPath);
+    }
+</script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65b3a3ea8d261e1b5f583c61/1hl2rgjeb';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+  
+<script src="/navbar.js"></script>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/purecounter.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/nice-select.js"></script>
+<script src="assets/js/swiper-bundle.js"></script>
+<script src="assets/js/isotope-pkgd.js"></script>
+<script src="assets/js/imagesloaded-pkgd.js"></script>
+<script src="assets/js/ajax-form.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', createCaptcha);
+    document.addEventListener('DOMContentLoaded', createCaptcha2);
+
+</script>
+</body>
+</html>
